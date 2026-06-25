@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+   body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+}
+
+header {
+ background: linear-gradient(120deg, purple, pink);
+ color: white;
+ padding: 60px;
+ text-align: center;
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ gap: 30px
+ padding: 40px;
+ flex-wrap: wrap;
+ flex: 1;
+}
+
+.card {
+ background: white;
+ width: 280px;
+ padding: 25px;
+ border-radius: 20px;
+ box-shadow: 0px 10px 20px rgba (0,0,0,0.2);
+transition: tranform 0.3s;
+}
+
+.card:hover {
+transform: translateY(-10px);
+}
+
+button {
+padding: 12px 20px;
+font-size: 16px;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+background-color: purple;
+color: white;
+}
+
+footer {
+background-color: #222;
+color: white;
+text-align: center;
+padding: 20px;
+width:100%;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Mpolokeng Thene</h1>
+<p>My Coding Portfolio</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>About Me</h2>
+<p>I am learning how to build websites using HTML, CSS, and Javascript.</p>
+<button onclick="sayHello()">Say Hi</button>
+</div>
+
+<div class="card">
+<h2>My Projects</h2>
+<p> Landing Page<br>
+    Profile Card<br>
+    Color Button App</p>
+</div>
+
+<div class="card">
+<h2>My Goals</h2>
+<p>Become a confident coder and build cool things on the web.</p>
+</div>
+
+<footer>
+© 2026 | Student Portfolio
+</footer>
+
+<script>
+function sayHello() {
+alert ("Hello! Thanks for visiting my website");
+}
+</script>
+</body>
+</html>

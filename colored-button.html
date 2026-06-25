@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+text-align:center;
+margin-top: 80px;
+font-family: Arial, sans-serif;
+}
+
+button {
+font-size: 30px;
+padding: 20px 40px;
+border-radius: 15px;
+border:none;
+cursor:pointer;
+background-color:orange;
+color:white;
+}
+</style>
+</head>
+
+<body
+
+<h1>Click the Button to Change the Background!</h1>
+
+<button onclick="changeColor ()">Change Color</button>
+
+<script>
+function changeColor() 
+{
+document.body.style.backgroundColor =
+'#' + Math.floor(Math.random()*16777215).toString(16);
+}
+</script>
+
+</body>
+</html>

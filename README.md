@@ -43,3 +43,11 @@ A multi-section responsive portal built for an IT community hub.
 A comprehensive full-stack database and user ingestion model designed to bridge client input interfaces with data tables.
 * **Core Concepts:** Relational schema construction (`CREATE TABLE`), explicit datatype constraints (`VARCHAR`, `AUTO_INCREMENT`), data integrity testing with query commands, and final application presentation.
 * **Tech Stack:** SQL, Relational Database Engine, HTML5 Forms, CSS3
+
+## 👥 Collective Group Capstone Project
+
+### Collaborative System UI/UX Prototype — [Live Figma Prototype](https://bats-pale-55020259.figma.site)
+A large-scale, multi-interface system design developed collectively as a team engineering initiative during training.
+* **My Contribution:** Collaborated on core wireframing, layout architecture, and user flow mapping to ensure seamless system navigation.
+* **Team Dynamics:** Practiced collective asset integration, design version control alignment, and collaborative UI/UX troubleshooting within a team environment.
+* **Design Stack:** Figma, Interactive Prototyping Component Systems
